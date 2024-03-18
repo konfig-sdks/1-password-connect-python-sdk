@@ -1,0 +1,43 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from 1_password_connect_python_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from 1_password_connect_python_sdk.model.api_request import APIRequest
+from 1_password_connect_python_sdk.model.api_request_actor import APIRequestActor
+from 1_password_connect_python_sdk.model.api_request_resource import APIRequestResource
+from 1_password_connect_python_sdk.model.api_request_resource_item import APIRequestResourceItem
+from 1_password_connect_python_sdk.model.api_request_resource_vault import APIRequestResourceVault
+from 1_password_connect_python_sdk.model.activity_get_api_requests_response import ActivityGetApiRequestsResponse
+from 1_password_connect_python_sdk.model.error_response import ErrorResponse
+from 1_password_connect_python_sdk.model.field import Field
+from 1_password_connect_python_sdk.model.field_section import FieldSection
+from 1_password_connect_python_sdk.model.file import File
+from 1_password_connect_python_sdk.model.file_section import FileSection
+from 1_password_connect_python_sdk.model.files_get_all_files_inside_item_response import FilesGetAllFilesInsideItemResponse
+from 1_password_connect_python_sdk.model.files_get_content_response import FilesGetContentResponse
+from 1_password_connect_python_sdk.model.full_item import FullItem
+from 1_password_connect_python_sdk.model.generator_recipe import GeneratorRecipe
+from 1_password_connect_python_sdk.model.generator_recipe_character_sets import GeneratorRecipeCharacterSets
+from 1_password_connect_python_sdk.model.health_check_liveness_response import HealthCheckLivenessResponse
+from 1_password_connect_python_sdk.model.health_server_state_check_response import HealthServerStateCheckResponse
+from 1_password_connect_python_sdk.model.item import Item
+from 1_password_connect_python_sdk.model.item_tags import ItemTags
+from 1_password_connect_python_sdk.model.item_urls import ItemUrls
+from 1_password_connect_python_sdk.model.item_urls_item import ItemUrlsItem
+from 1_password_connect_python_sdk.model.item_vault import ItemVault
+from 1_password_connect_python_sdk.model.items_get_all_response import ItemsGetAllResponse
+from 1_password_connect_python_sdk.model.metrics_query_server_metrics_response import MetricsQueryServerMetricsResponse
+from 1_password_connect_python_sdk.model.patch import Patch
+from 1_password_connect_python_sdk.model.patch_item import PatchItem
+from 1_password_connect_python_sdk.model.service_dependency import ServiceDependency
+from 1_password_connect_python_sdk.model.vault import Vault
+from 1_password_connect_python_sdk.model.vaults_list_all_response import VaultsListAllResponse
