@@ -394,7 +394,7 @@ create_new_item_response = onepasswordconnect.items.create_new_item(
             "name": "foo.txt",
             "size": 35,
             "content_path": "v1/vaults/ionaiwtdvgclrixbt6ztpqcxnq/items/p7eflcy7f5mk7vg6zrzf5rjjyu/files/6r65pjq33banznomn7q22sj44e/content",
-            "content": "[B@4dffe06b",
+            "content": "[B@726f9c46",
         }
     ],
 )
@@ -600,7 +600,7 @@ update_item_details_response = onepasswordconnect.items.update_item_details(
             "name": "foo.txt",
             "size": 35,
             "content_path": "v1/vaults/ionaiwtdvgclrixbt6ztpqcxnq/items/p7eflcy7f5mk7vg6zrzf5rjjyu/files/6r65pjq33banznomn7q22sj44e/content",
-            "content": "[B@4dffe06b",
+            "content": "[B@726f9c46",
         }
     ],
 )
